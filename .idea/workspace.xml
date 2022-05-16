@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa9a7be9-6d56-48be-8870-96dd84fd6ef9" name="Changes" comment="Lab folder created">
+    <list default="true" id="aa9a7be9-6d56-48be-8870-96dd84fd6ef9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/src/Lab3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab3/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652721665847</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Lab folder created">
+      <created>1652721727946</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652721727946</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
