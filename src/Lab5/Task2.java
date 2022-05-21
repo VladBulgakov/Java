@@ -12,7 +12,12 @@ public class Task2 {
 
     private static boolean isPalindrome(String input){
         boolean isPal = true;
-        //input.
+        char[] charArray = input.toCharArray();
+        for (int i = 0; i < charArray.length; i++){
+            if (charArray[i] != charArray[charArray.length-1-i]){
+                isPal = false;
+            }
+        }
         return isPal;
     }
 }
