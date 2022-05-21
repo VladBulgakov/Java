@@ -15,36 +15,51 @@ public class Part2Task5 {
             array[i] = console.nextInt();
         }
         System.out.println("Исходный массив: " + Arrays.toString(array));
-        mergeSort(array);
+        mergeSort(array, array.length);
         System.out.println("Отсортированный массив: " + Arrays.toString(array));
     }
 
-    private static void mergeSort(int[] array, int leftBound, int rightBound){
-        if (leftBound >= rightBound){
+    public static void mergeSort(int[] array, int length){
+        if (length < 2){
             return;
         }
-        int middle = leftBound + (rightBound - leftBound) / 2;
-        mergeSort(array, leftBound, middle);
-        mergeSort(array, middle + 1, rightBound);
-        mergeArrays(array, leftBound, rightBound, middle);
+        int middle = length / 2;
+        int[] leftArray = new int[middle];
+        int[] rightArray = new int[length - middle];
+        for (int i = 0; i < middle; i++){
+            leftArray[i] = array[i];
+        }
+        for (int i = middle; i < length; i++){
+            rightArray[i - middle] = array[i];
+        }
+        mergeSort(leftArray, middle);
+        mergeSort(rightArray, length - middle);
+        merge(array, leftArray, rightArray, middle, length - middle);
     }
 
-    private static void mergeArrays(int[] input, int leftBound, int rightBound, int middle){
-        if (leftBound >= rightBound || middle < leftBound || middle > rightBound){
-            return;
+    public static void merge(int[] targetArray, int[] leftArray, int[] rightArray, int leftSize, int rightSize){
+        int i = 0, j = 0, k = 0;
+        while (i < leftSize && j < rightSize){
+            if (leftArray[i] <= rightArray[j]){
+                targetArray[k] = leftArray[i];
+                k++;
+                i++;
+            }
+            else{
+                targetArray[k] = rightArray[j];
+                k++;
+                j++;
+            }
         }
-        if (rightBound == leftBound + 1 && input[leftBound] > input[rightBound]){
-            int tmp = input[leftBound];
-            input[leftBound] = input[rightBound];
-            input[rightBound] = tmp;
+        while (i < leftSize){
+            targetArray[k] = leftArray[i];
+            k++;
+            i++;
         }
-        int[] buf = new int[];
-        System.arraycopy(input, 2, );
-        int index1 = leftBound;
-        int index2 = middle;
-        int iterationCount = rightBound - leftBound;
-        for (int i = leftBound; i <= rightBound; i++){
-
+        while (j < rightSize){
+            targetArray[k] = rightArray[j];
+            k++;
+            j++;
         }
     }
 }
