@@ -54,37 +54,20 @@ public class Part1 {
 
     //Проверить, появляется ли число 3 как первый или последний элемент массива целых чисел.
     // Длина массива должна быть больше или равна двум
-    public static void task5(){
-        Scanner console = new Scanner(System.in);
-        System.out.println("Введите количество элементов массива (2 и более): ");
-        int size = console.nextInt();
-        if (size < 2) return;
-        int[] array = new int[size];
-        System.out.println("Введите числа: ");
-        for (int i = 0; i<size; i++){
-            array[i] = console.nextInt();
-        }
+    public static void task5(int[] array){
         String outputArray = "array = ";
-        for (int i = 0; i<size; i++){
+        for (int i = 0; i<array.length; i++){
             outputArray += Integer.toString(array[i]) + ", ";
         }
         System.out.println(outputArray.substring(0,outputArray.length()-2));
-        System.out.println(array[0] == 3 || array[size-1] == 3);
+        System.out.println(array[0] == 3 || array[array.length-1] == 3);
     }
 
     //Напишите программу, чтобы проверить, что массив содержит число 1 или 3.
-    public static void task6(){
-        Scanner console = new Scanner(System.in);
-        System.out.println("Введите количество элементов массива: ");
-        int size = console.nextInt();
-        int[] array = new int[size];
-        System.out.println("Введите числа: ");
-        for (int i = 0; i<size; i++){
-            array[i] = console.nextInt();
-        }
+    public static void task6(int[] array){
         boolean numbersFound = false;
         String outputArray = "array = ";
-        for (int i = 0; i<size; i++){
+        for (int i = 0; i<array.length; i++){
             outputArray += Integer.toString(array[i]) + ", ";
             if (array[i] == 1 || array[i] == 3){
                 numbersFound = true;

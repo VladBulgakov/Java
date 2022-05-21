@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa9a7be9-6d56-48be-8870-96dd84fd6ef9" name="Changes" comment="Lab 4 added">
+    <list default="true" id="aa9a7be9-6d56-48be-8870-96dd84fd6ef9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Lab5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab5/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab5/Task2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab4/Part2Task5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab4/Part2Task5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab4/Part1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab4/Part1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +61,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lab5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab5.Main" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab3.Main" />
       <module name="Java" />
@@ -73,6 +90,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Lab4.Main" />
+        <item itemvalue="Application.Lab5.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -121,13 +139,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653116528992</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Обновлена работа 4 (21.05.2022)">
+      <created>1653117863582</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1653117863582</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lab folder created" />
     <MESSAGE value="Lab 3 added" />
     <MESSAGE value="Lab 4 added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab 4 added" />
+    <MESSAGE value="Обновлена работа 4 (21.05.2022)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Обновлена работа 4 (21.05.2022)" />
   </component>
 </project>
