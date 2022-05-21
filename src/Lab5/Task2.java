@@ -11,6 +11,11 @@ public class Task2 {
     }
 
     private static boolean isPalindrome(String input){
+        StringBuilder tmpSb = new StringBuilder(input);
+        return tmpSb.toString().equalsIgnoreCase(tmpSb.reverse().toString());
+    }
+
+    private static boolean isPalindromeOld(String input){
         boolean isPal = true;
         char[] charArray = input.toCharArray();
         for (int i = 0; i < charArray.length; i++){

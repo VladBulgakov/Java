@@ -4,6 +4,6 @@ import Lab4.Part2Task5;
 
 public class Main {
     public static void main(String[] args) {
-        Task5.app();
+        Task2.app();
     }
 }
