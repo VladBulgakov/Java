@@ -2,9 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa9a7be9-6d56-48be-8870-96dd84fd6ef9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab6/Task1/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab6/Task1/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab6/Task1/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab6/Task2/Acting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab6/Task2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab6/Task2/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab6/Task2/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab6/Task2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab6/Task3/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab6/Task3/Truck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab6/Task4/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab6/Task4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab6/Task4/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab6/Task5/AgeInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab6/Task5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab6/Task5/NameInput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab5/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab5/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab5/Task2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,19 +47,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/Java/src/Lab6/Task2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\src\Lab6\Task2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Java\src\Lab2" />
       <recent name="D:\Java\src\Lab1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lab5.Main">
+  <component name="RunManager" selected="Application.Lab6.Task4.Main">
     <configuration name="Lab4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab4.Main" />
       <module name="Java" />
@@ -71,6 +91,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lab6.Task2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab6.Task2.Main" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab6.Task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab6.Task4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab6.Task4.Main" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab6.Task4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab3.Main" />
       <module name="Java" />
@@ -86,6 +132,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lab6.Task4.Main" />
+        <item itemvalue="Application.Lab6.Task2.Main" />
         <item itemvalue="Application.Lab5.Main" />
         <item itemvalue="Application.Lab4.Main" />
         <item itemvalue="Application.Main" />
@@ -157,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653132893414</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Исправление по работе 5 (21.05.2022)">
+      <created>1653133923011</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1653133923011</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -167,6 +222,7 @@
     <MESSAGE value="Обновлена работа 4 (21.05.2022)" />
     <MESSAGE value="Исправления 1 (21.05.2022)" />
     <MESSAGE value="Добавлена работа 5 (21.05.2022)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлена работа 5 (21.05.2022)" />
+    <MESSAGE value="Исправление по работе 5 (21.05.2022)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправление по работе 5 (21.05.2022)" />
   </component>
 </project>
