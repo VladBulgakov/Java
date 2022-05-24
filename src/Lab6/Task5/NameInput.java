@@ -7,3 +7,5 @@ public class NameInput extends AgeInput{
         return this.console.nextLine();
     }
 }
+
+//типы

@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa9a7be9-6d56-48be-8870-96dd84fd6ef9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab6/Task1/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab6/Task1/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab6/Task1/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab6/Task2/Acting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab6/Task2/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab6/Task2/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab6/Task2/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab6/Task2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab6/Task3/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab6/Task3/Truck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab6/Task4/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab6/Task4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab6/Task4/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab6/Task5/AgeInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab6/Task5/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab6/Task5/NameInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab6/Task5/NameInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab6/Task5/NameInput.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653133923011</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Добавлена работа 5">
+      <created>1653413583966</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1653413583966</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -223,6 +213,7 @@
     <MESSAGE value="Исправления 1 (21.05.2022)" />
     <MESSAGE value="Добавлена работа 5 (21.05.2022)" />
     <MESSAGE value="Исправление по работе 5 (21.05.2022)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправление по работе 5 (21.05.2022)" />
+    <MESSAGE value="Добавлена работа 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлена работа 5" />
   </component>
 </project>
