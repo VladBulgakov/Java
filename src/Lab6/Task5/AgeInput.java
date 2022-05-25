@@ -4,15 +4,10 @@ import java.util.Scanner;
 
 public class AgeInput {
     Scanner console = new Scanner(System.in);
+    public int age;
 
-    public int input(){
+    public void input(){
         System.out.println("Введите возраст: ");
-        return this.console.nextInt();
+        this.age = console.nextInt();
     }
 }
-
-
-/*
-*       Scanner console = new Scanner(System.in);
-        System.out.println("Введите количество элементов массива: ");
-        int size = console.nextInt();*/

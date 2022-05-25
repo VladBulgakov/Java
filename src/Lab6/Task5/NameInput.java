@@ -1,11 +1,10 @@
 package Lab6.Task5;
 
 public class NameInput extends AgeInput{
+    public String name;
     @Override
-    public String input(){
+    public void input(){
         System.out.println("Введите имя: ");
-        return this.console.nextLine();
+        this.name = console.nextLine();
     }
 }
-
-//типы
