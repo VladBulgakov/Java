@@ -4,9 +4,10 @@ public class Client extends Human{
     private String bankTitle;
 
     public Client(String firstName, String lastName, String bankTitle){
+        super(firstName, lastName);
         this.bankTitle = bankTitle;
-        this.firstName = firstName;
-        this.lastName = lastName;
+        //this.firstName = firstName;
+        //this.lastName = lastName;
     }
 
     public void humanInfo(){

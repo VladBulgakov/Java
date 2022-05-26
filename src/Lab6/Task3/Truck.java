@@ -1,8 +1,8 @@
 package Lab6.Task3;
 
 public class Truck extends Car{
-    int wheels;
-    int weightLimit;
+    private int wheels;
+    private int weightLimit;
 
     public Truck(String model, char color, float speed, int wheels, int weight, int weightLimit){
         super(weight, model, color, speed);

@@ -4,9 +4,10 @@ public class Employee extends Human{
     private String bankTitle;
 
     public Employee(String firstName, String lastName, String bankTitle){
+        super(firstName, lastName);
         this.bankTitle = bankTitle;
-        this.firstName = firstName;
-        this.lastName = lastName;
+        //this.firstName = firstName;
+        //this.lastName = lastName;
     }
 
     public void humanInfo(){

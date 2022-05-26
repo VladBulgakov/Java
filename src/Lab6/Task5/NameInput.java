@@ -5,6 +5,7 @@ public class NameInput extends AgeInput{
     @Override
     public void input(){
         System.out.println("Введите имя: ");
-        this.name = console.nextLine();
+        this.name = getScanner().nextLine();
+        //тут через гетер
     }
 }

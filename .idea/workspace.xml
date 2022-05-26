@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa9a7be9-6d56-48be-8870-96dd84fd6ef9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Lab7/Task1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab7/Task1/Plane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab7/Task2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab7/Task2/Plane.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab6/Task1/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab6/Task1/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab6/Task1/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab6/Task1/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab6/Task1/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab6/Task1/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab6/Task3/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab6/Task3/Truck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab6/Task4/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab6/Task4/Child.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab6/Task4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab6/Task4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab6/Task4/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab6/Task4/Parent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lab6/Task5/AgeInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab6/Task5/AgeInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab6/Task5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab6/Task5/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lab6/Task5/NameInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab6/Task5/NameInput.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,21 +59,11 @@
       <recent name="D:\Java\src\Lab2" />
       <recent name="D:\Java\src\Lab1" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Lab7.Task2" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Lab6.Task5.Main">
-    <configuration name="Lab4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab4.Main" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lab4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Lab5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab5.Main" />
       <module name="Java" />
@@ -116,13 +116,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab7.Task2.Main" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab7.Task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Lab6.Task5.Main" />
-        <item itemvalue="Application.Lab6.Task4.Main" />
         <item itemvalue="Application.Lab6.Task2.Main" />
+        <item itemvalue="Application.Lab6.Task4.Main" />
         <item itemvalue="Application.Lab5.Main" />
-        <item itemvalue="Application.Lab4.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653413656306</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Исправления по работе 6 25.05.2022">
+      <created>1653483505281</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1653483505281</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -225,6 +245,7 @@
     <MESSAGE value="Исправление по работе 5 (21.05.2022)" />
     <MESSAGE value="Добавлена работа 5" />
     <MESSAGE value="Добавлена работа 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлена работа 6" />
+    <MESSAGE value="Исправления по работе 6 25.05.2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправления по работе 6 25.05.2022" />
   </component>
 </project>

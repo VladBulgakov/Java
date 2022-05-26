@@ -19,7 +19,7 @@ public abstract class Human {
         this.lastName = lastName;
     }
 
-    public Human(){
+    /*/public Human(){
 
-    }
+    }*/
 }
