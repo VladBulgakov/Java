@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String args[]){
-        testTask3();
+        testTask1();
     }
 
     public static void testTask1(){
